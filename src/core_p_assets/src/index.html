@@ -8,15 +8,50 @@
     <link rel="icon" href="favicon.ico" />
     <link type="text/css" rel="stylesheet" href="main.css" />
   </head>
+
   <body>
     <main>
-      <img src="logo.png" alt="DFINITY logo" />
+      <img id="WAGMI" src="WAGMI.png" alt="wagmi" />
       <form action="#">
-        <label for="name">Enter your name: &nbsp;</label>
-        <input id="name" alt="Name" type="text" />
-        <button type="submit">Click Me!</button>
+        <label for="add">Enter a principal: &nbsp;</label>
+        <input id="principal" alt="Name" type="text" />
       </form>
-      <section id="greeting"></section>
+      <br>
+      <div>
+        <button id="connect" type="submit">Connect to Plug</button>
+        <button id="mint" type="submit">Mint!</button>
+      </div>
+      
+      <br>
+      <form action="#">
+        <label for="name">Enter a tokenURI to Mint: &nbsp;</label>
+        <input id="name" alt="Name" type="text" />
+      </form>
+      <div class = row>
+        <button class="photos" id="nft">
+          <img src="Batman.svg" alt="Batman">
+        </button>
+        </div>
+      <div>
+      <button class="photos" id="nft">
+        <img src="A Gift.svg" alt="A Gift">
+      </button>
+      </div>
+      <div>
+      <button class="photos" id="nft">
+        <img src="Avatar.svg" alt="Avatar">
+      </button>
+      </div>
+    </div>
+      <br>
+      <div id="greeting"></div>
+      <img id="nft_minted" src=""/>
+      <div id="final"></div>
+      <div id="balanceOf"></div>
+      <br>
+
+      <div id="greeting"></div>
+      <div id="ending"></div>
     </main>
   </body>
 </html>
